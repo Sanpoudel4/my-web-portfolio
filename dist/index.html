@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SanDev | Front-End Developer</title>
+  <script type="module" crossorigin src="/assets/index-t8hnYU50.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-wOoCjhU9.css">
+</head>
+
+<body
+    class="min-h-screen flex flex-col bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
+
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">SanDev</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="font-semibold text-indigo-600 dark:text-indigo-400">Home</a></li>
+                <li><a href="projects.html" class="hover:text-indigo-500">Projects</a></li>
+                <li><a href="blog.html" class="hover:text-indigo-500">Blog</a></li>
+                <li><a href="about.html" class="hover:text-indigo-500">About</a></li>
+                <li><a href="resume.html" class="hover:text-indigo-500">Résumé</a></li>
+                <li><a href="contact.html" class="hover:text-indigo-500">Contact</a></li>
+            </ul>
+            <button id="theme-toggle"
+                class="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-sm font-medium text-gray-800 dark:text-gray-100 shadow hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section
+        class="relative text-white text-center py-28 bg-gradient-to-b from-indigo-900 via-purple-900 to-gray-900 overflow-hidden dark:from-gray-950 dark:via-indigo-950 dark:to-purple-950">
+
+        <!-- floating glow background effect -->
+        <div
+            class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-700/40 via-transparent to-transparent blur-3xl">
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Availability Tag -->
+            <p class="text-sm text-green-400 font-medium mb-4 animate-pulse">
+                🟢 Open to collaborative web projects
+            </p>
+
+            <!-- Hero Heading -->
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Hi, I'm <span class="text-indigo-400">Sankalpa Poudel</span><br />
+                Building better web experiences through
+                <span class="text-pink-400">design and code.</span>
+            </h1>
+
+            <!-- Subtext -->
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                A passionate Front-End Developer and UX/UI Designer specializing in
+                responsive interfaces, accessibility, and user-focused web applications.
+            </p>
+
+            <!-- Call-to-Action Buttons -->
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="contact.html"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition-all shadow-md hover:shadow-lg hover:scale-105">
+                    Get in Touch
+                </a>
+                <a href="resume.html"
+                    class="border border-white/50 px-6 py-3 rounded-lg font-medium hover:bg-white/10 hover:text-white transition-all shadow-sm hover:shadow-md">
+                    View Resume
+                </a>
+            </div>
+
+            <!-- Core Technologies -->
+            <div class="mt-16">
+                <h3 class="uppercase tracking-wide text-gray-400 text-sm mb-4">
+                    Core Technologies
+                </h3>
+                <div class="flex flex-wrap justify-center gap-6 text-gray-300 text-sm">
+                    <span class="hover:text-indigo-400 transition">HTML</span>
+                    <span class="hover:text-indigo-400 transition">CSS</span>
+                    <span class="hover:text-indigo-400 transition">JavaScript</span>
+                    <span class="hover:text-indigo-400 transition">Tailwind CSS</span>
+                    <span class="hover:text-indigo-400 transition">React</span>
+                    <span class="hover:text-indigo-400 transition">WordPress</span>
+                    <span class="hover:text-indigo-400 transition">Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Hire Me -->
+    <section class="bg-gray-100 dark:bg-gray-900 py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-600 dark:text-indigo-400">
+                Why Hire Me?
+            </h2>
+            <p class="text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed">
+                I deliver more than code — I build complete, human-centered digital experiences.
+                My approach blends <span class="font-semibold text-indigo-500 dark:text-indigo-400">technical
+                    precision</span>,
+                <span class="font-semibold text-indigo-500 dark:text-indigo-400">creative problem-solving</span>,
+                and <span class="font-semibold text-indigo-500 dark:text-indigo-400">design thinking</span>
+                to turn ideas into elegant, high-performing web solutions.
+            </p>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-left">
+                <!-- Quality & Reliability -->
+                <div
+                    class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition p-8 border border-gray-200 dark:border-gray-700">
+                    <div class="text-4xl mb-3 text-indigo-500 dark:text-indigo-400">
+                        <svg height="48px" width="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 451.296 451.296"
+                            xml:space="preserve" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <circle style="fill:#334D5C;" cx="225.638" cy="225.648" r="225.638"></circle>
+                                <path style="opacity:0.1;enable-background:new ;"
+                                    d="M451.296,225.648c0-1.536-0.085-3.051-0.116-4.58L349.985,118.301 L328.36,96.347c0,12.129-9.826,21.955-21.955,21.955H128.277l-35.87,49.41l133.42,183.817l-0.188,3.385l81.255,81.255 C391.356,403.543,451.296,321.62,451.296,225.648z">
+                                </path>
+                                <polygon style="fill:#D5D6DB;" points="89.727,167.716 225.638,354.931 153.904,167.716 ">
+                                </polygon>
+                                <g>
+                                    <polygon style="fill:#EBF0F3;"
+                                        points="172.841,118.293 125.606,118.293 89.727,167.716 153.904,167.716 ">
+                                    </polygon>
+                                    <polygon style="fill:#EBF0F3;"
+                                        points="225.638,354.931 361.55,167.716 297.373,167.716 "></polygon>
+                                </g>
+                                <g>
+                                    <polygon style="fill:#D5D6DB;"
+                                        points="278.436,118.293 297.373,167.716 361.55,167.716 325.671,118.293 ">
+                                    </polygon>
+                                    <polygon style="fill:#D5D6DB;"
+                                        points="225.638,167.716 225.638,118.293 172.841,118.293 153.904,167.716 ">
+                                    </polygon>
+                                </g>
+                                <g>
+                                    <polygon style="fill:#EBF0F3;"
+                                        points="153.904,167.716 225.638,354.931 225.638,167.716 "></polygon>
+                                    <polygon style="fill:#EBF0F3;"
+                                        points="297.373,167.716 278.436,118.293 225.638,118.293 225.638,167.716 ">
+                                    </polygon>
+                                </g>
+                                <polygon style="fill:#D5D6DB;"
+                                    points="225.638,167.716 225.638,354.931 297.373,167.716 "></polygon>
+                                <g>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M153.904,145.787c0,12.111-9.818,21.929-21.928,21.929l0,0c12.111,0,21.928,9.817,21.928,21.928 c0-12.111,9.818-21.928,21.929-21.928l0,0C163.722,167.716,153.904,157.898,153.904,145.787z">
+                                    </path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M325.671,96.365c0,12.11-9.818,21.928-21.928,21.928l0,0c12.111,0,21.928,9.818,21.928,21.929 c0-12.111,9.817-21.929,21.929-21.929l0,0C335.488,118.293,325.671,108.475,325.671,96.365z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
+                        Quality &amp; Reliability
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                        Each project is engineered for <strong>performance</strong>, <strong>accessibility</strong>, and
+                        <strong>scalability</strong>,
+                        ensuring a seamless experience today — and long-term maintainability tomorrow.
+                    </p>
+                </div>
+
+                <!-- UX & Design Expertise -->
+                <div
+                    class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition p-8 border border-gray-200 dark:border-gray-700">
+                    <div class="text-4xl mb-3 text-indigo-500 dark:text-indigo-400">
+                        <svg height="48px" width="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"
+                            fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <circle style="fill:#E6E6E6;" cx="256" cy="256" r="256"></circle>
+                                <path style="fill:#CCCCCC;"
+                                    d="M510.846,281.056c-11.539,120.006-105.993,215.614-225.175,229.296l-108.63-108.632l-6.429-27.694 l-21.594-19.451l5.275-10.385l-15.496-13.517l5.275-5.11l-24.891-20.77L355.235,125.28l155.776,155.776L510.846,281.056 L510.846,281.056z">
+                                </path>
+                                <path style="fill:#3A99D7;"
+                                    d="M346.663,421.008l-6.099-83.081c0,0,61.487-59.179,54.563-135.171 c-6.923-75.827-83.41-123.632-161.051-102.861s-90.499,82.916-90.828,93.136c-0.329,10.221,9.232,36.265,2.308,54.069 c-6.923,17.804-31.65,45.661-29.341,54.069c2.308,8.407,23.572,9.726,23.572,9.726s0.165,8.078-2.637,9.726 c-2.803,1.649-1.154,8.407,3.461,12.198c4.615,3.792,12.364,6.264,12.364,6.264s-8.901,1.978-7.747,8.407 c1.154,6.264,4.286,9.561,10.879,9.726c6.594,0.329,8.407-2.803,9.561,0.66c1.154,3.461,1.814,3.792,1.814,3.792 s-6.594,17.144-0.824,29.836c5.769,12.693,14.671,12.693,25.056,10.055s30.496-8.407,30.496-8.407l5.44,28.023h118.851 L346.663,421.008z">
+                                </path>
+                                <path style="fill:#2682BF;"
+                                    d="M346.663,421.008l-6.099-83.081c0,0,61.487-59.179,54.563-135.171 c-5.769-63.134-59.673-106.818-122.478-107.807v326.058h73.849h0.164V421.008z">
+                                </path>
+                                <path style="fill:#F7F7F8;"
+                                    d="M243.142,150.996c3.626,0.989,7.253,2.472,10.385,4.286l11.374-9.232l14.176,14.176l-9.232,11.374 c1.814,3.297,3.297,6.758,4.286,10.385l14.507,1.483v19.946l-14.507,1.483c-0.989,3.626-2.472,7.253-4.286,10.385l9.232,11.374 L264.9,240.832l-11.374-9.232c-3.297,1.814-6.758,3.297-10.385,4.286l-1.483,14.507h-19.946l-1.483-14.507 c-3.626-0.989-7.253-2.472-10.385-4.286l-11.374,9.232l-14.176-14.176l9.232-11.374c-1.814-3.297-3.297-6.758-4.286-10.385 l-14.507-1.483v-19.946l14.507-1.483c0.989-3.626,2.472-7.253,4.286-10.385l-9.232-11.374l14.176-14.176l11.374,9.232 c3.297-1.814,6.758-3.297,10.385-4.286l1.483-14.507h19.946L243.142,150.996z M231.768,170.282 c12.693,0,23.078,10.385,23.078,23.078c0,12.693-10.385,23.078-23.078,23.078c-12.693,0-23.078-10.385-23.078-23.078 C208.691,180.666,219.075,170.282,231.768,170.282z">
+                                </path>
+                                <path style="fill:#FEFEFE;"
+                                    d="M305.288,239.516c1.814,0.494,3.461,1.154,4.946,2.143l4.615-3.792l9.561,9.561l-3.957,4.451 c0.824,1.649,1.483,3.297,1.978,4.946l5.935,0.66v13.517l-5.935,0.329c-0.494,1.814-1.154,3.461-2.143,4.946l3.792,4.615 l-9.561,9.561l-4.451-3.956c-1.649,0.824-3.297,1.483-4.946,1.978l-0.66,5.935h-13.517l-0.329-5.935 c-1.814-0.494-3.461-1.154-4.946-2.143l-4.615,3.792l-9.561-9.561l3.957-4.451c-0.824-1.649-1.483-3.297-1.978-4.946l-5.935-0.66 v-13.517l5.935-0.329c0.494-1.814,1.154-3.461,2.143-4.946l-3.792-4.615l9.561-9.561l4.451,3.956 c1.649-0.824,3.297-1.483,4.946-1.978l0.66-5.935h13.517L305.288,239.516z M298.034,179.678l8.572-8.572l7.583,6.264 c1.154-0.494,2.308-0.989,3.461-1.483l0.989-9.89h12.198l0.989,9.89c1.154,0.329,2.308,0.824,3.461,1.483l7.583-6.264l8.572,8.572 l-6.264,7.583c0.494,1.154,0.989,2.308,1.483,3.461l9.89,0.989v12.198l-9.89,0.989c-0.329,1.154-0.824,2.308-1.483,3.461 l6.264,7.583l-8.572,8.572l-7.583-6.264c-1.154,0.494-2.308,0.989-3.461,1.483l-0.989,9.89H318.64l-0.989-9.89 c-1.154-0.329-2.308-0.824-3.461-1.483l-7.583,6.264l-8.572-8.572l6.264-7.583c-0.494-1.154-0.989-2.308-1.483-3.461l-9.89-0.989 v-12.198l9.89-0.989c0.329-1.154,0.824-2.308,1.483-3.461L298.034,179.678z M324.739,185.612c6.758,0,12.198,5.44,12.198,12.198 s-5.44,12.198-12.198,12.198c-6.758,0-12.198-5.44-12.198-12.198S317.981,185.612,324.739,185.612z M297.87,254.187 c5.44,0,9.726,4.451,9.726,9.726c0,5.44-4.451,9.726-9.726,9.726c-5.44,0-9.726-4.451-9.726-9.726 C288.144,258.472,292.595,254.187,297.87,254.187z">
+                                </path>
+                                <g>
+                                    <path style="fill:#E6E6E6;"
+                                        d="M272.814,153.962l6.099,6.099l-6.099,7.418V153.962z M272.814,178.194 c0.494,1.154,0.824,2.472,1.154,3.626l14.507,1.483v19.946l-14.507,1.483c-0.329,1.154-0.66,2.472-1.154,3.626V178.194z M272.814,218.91l6.099,7.418l-6.099,6.099V218.91z">
+                                    </path>
+                                    <path style="fill:#E6E6E6;"
+                                        d="M305.288,239.516c1.814,0.494,3.461,1.154,4.946,2.143l4.615-3.792l9.561,9.561l-3.957,4.451 c0.824,1.649,1.483,3.297,1.978,4.946l5.935,0.66v13.517l-5.935,0.329c-0.494,1.814-1.154,3.461-2.143,4.946l3.792,4.615 l-9.561,9.561l-4.451-3.956c-1.649,0.824-3.297,1.483-4.946,1.978l-0.66,5.935h-13.517l-0.329-5.935 c-1.814-0.494-3.461-1.154-4.946-2.143l-4.615,3.792l-8.078-8.078v-3.297l2.308-2.803c-0.824-1.649-1.483-3.297-1.978-4.946h-0.329 v-14.507h0.329c0.494-1.814,1.154-3.461,2.143-4.946l-2.472-2.967v-2.803l8.242-8.242l4.451,3.956 c1.649-0.824,3.297-1.483,4.946-1.978l0.66-5.935h13.517l0.329,5.935L305.288,239.516L305.288,239.516z M298.034,179.678 l8.572-8.572l7.583,6.264c1.154-0.494,2.308-0.989,3.461-1.483l0.989-9.89h12.198l0.989,9.89c1.154,0.329,2.308,0.824,3.461,1.483 l7.583-6.264l8.572,8.572l-6.264,7.583c0.494,1.154,0.989,2.308,1.483,3.461l9.89,0.989v12.198l-9.89,0.989 c-0.329,1.154-0.824,2.308-1.483,3.461l6.264,7.583l-8.572,8.572l-7.583-6.264c-1.154,0.494-2.308,0.989-3.461,1.483l-0.989,9.89 H318.64l-0.989-9.89c-1.154-0.329-2.308-0.824-3.461-1.483l-7.583,6.264l-8.572-8.572l6.264-7.583 c-0.494-1.154-0.989-2.308-1.483-3.461l-9.89-0.989v-12.198l9.89-0.989c0.329-1.154,0.824-2.308,1.483-3.461L298.034,179.678z M324.739,185.612c6.758,0,12.198,5.44,12.198,12.198s-5.44,12.198-12.198,12.198c-6.758,0-12.198-5.44-12.198-12.198 S317.981,185.612,324.739,185.612z M297.87,254.187c5.44,0,9.726,4.451,9.726,9.726c0,5.44-4.451,9.726-9.726,9.726 c-5.44,0-9.726-4.451-9.726-9.726C288.144,258.472,292.595,254.187,297.87,254.187z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
+                        UX &amp; Design Expertise
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                        Experienced in <strong>Figma</strong>, <strong>accessibility testing</strong>, and
+                        <strong>responsive layout systems</strong>.
+                        I focus on usability and aesthetics to deliver visually consistent and intuitive interfaces.
+                    </p>
+                </div>
+
+                <!-- Front-End Development -->
+                <div
+                    class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition p-8 border border-gray-200 dark:border-gray-700">
+                    <div class="text-4xl mb-3 text-indigo-500 dark:text-indigo-400">
+                        <svg height="48px" width="48px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" xml:space="preserve"
+                            fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #76C2AF;
+                                    }
+
+                                    .st1 {
+                                        opacity: 0.2;
+                                    }
+
+                                    .st2 {
+                                        fill: #231F20;
+                                    }
+
+                                    .st3 {
+                                        fill: #FFFFFF;
+                                    }
+                                </style>
+                                <g id="Layer_1">
+                                    <g>
+                                        <circle class="st0" cx="32" cy="32" r="32"></circle>
+                                    </g>
+                                    <g class="st1">
+                                        <g>
+                                            <g>
+                                                <path class="st2"
+                                                    d="M42.5,44c-0.7,0-1.3-0.3-1.7-1c-0.6-0.9-0.3-2.2,0.7-2.8l10.1-6.2c0,0,0,0,0-0.1s0,0,0-0.1l-10.1-6.2 c-0.9-0.6-1.2-1.8-0.7-2.8c0.6-0.9,1.8-1.2,2.8-0.7l10.6,6.6l0.2,0.2c0.8,0.8,1.2,1.9,1.2,3c0,1.1-0.4,2.2-1.2,3l-0.2,0.2 l-10.6,6.6C43.2,43.9,42.8,44,42.5,44z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path class="st2"
+                                                    d="M21.5,44c-0.4,0-0.7-0.1-1-0.3L9.9,37.1L9.7,37c-0.8-0.8-1.2-1.9-1.2-3c0-1.1,0.4-2.2,1.2-3l0.2-0.2 l10.6-6.6c0.9-0.6,2.2-0.3,2.8,0.7c0.6,0.9,0.3,2.2-0.7,2.8l-10.1,6.2c0,0,0,0,0,0.1s0,0,0,0.1l10.1,6.2 c0.9,0.6,1.2,1.8,0.7,2.8C22.9,43.7,22.2,44,21.5,44z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g class="st1">
+                                        <g>
+                                            <path class="st2"
+                                                d="M25.5,53c-0.2,0-0.5,0-0.7-0.1c-1-0.4-1.5-1.6-1.2-2.6l13-34c0.4-1,1.6-1.5,2.6-1.2c1,0.4,1.5,1.6,1.2,2.6 l-13,34C27.1,52.5,26.3,53,25.5,53z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path class="st3"
+                                                d="M42.5,42c-0.7,0-1.3-0.3-1.7-1c-0.6-0.9-0.3-2.2,0.7-2.8l10.1-6.2c0,0,0-0.1,0-0.1l-10.1-6.2 c-0.9-0.6-1.2-1.8-0.7-2.8c0.6-0.9,1.8-1.2,2.8-0.7l10.6,6.6l0.2,0.2c1.6,1.6,1.6,4.3,0,6l-0.2,0.2l-10.6,6.6 C43.2,41.9,42.8,42,42.5,42z">
+                                            </path>
+                                        </g>
+                                        <g>
+                                            <path class="st3"
+                                                d="M21.5,42c-0.4,0-0.7-0.1-1-0.3L9.9,35.1L9.7,35c-1.6-1.6-1.6-4.3,0-6l0.2-0.2l10.6-6.6 c0.9-0.6,2.2-0.3,2.8,0.7c0.6,0.9,0.3,2.2-0.7,2.8l-10.1,6.2c0,0,0,0.1,0,0.1l10.1,6.2c0.9,0.6,1.2,1.8,0.7,2.8 C22.9,41.7,22.2,42,21.5,42z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <path class="st3"
+                                            d="M25.5,51c-0.2,0-0.5,0-0.7-0.1c-1-0.4-1.5-1.6-1.2-2.6l13-34c0.4-1,1.6-1.5,2.6-1.2c1,0.4,1.5,1.6,1.2,2.6 l-13,34C27.1,50.5,26.3,51,25.5,51z">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g id="Layer_2"> </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
+                        Front-End Development
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                        Proficient with <strong>Tailwind CSS</strong>, <strong>React</strong>, and
+                        <strong>WordPress block themes</strong>. I transform design systems into fast,
+                        accessible, and maintainable web applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Projects -->
+    <section class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-indigo-600 dark:text-indigo-400">
+                My Featured Projects
+            </h2>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button
+                    class="filter-btn bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition"
+                    data-filter="all">All</button>
+                <button
+                    class="filter-btn border border-indigo-400 text-indigo-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-600 hover:text-white transition"
+                    data-filter="react">React</button>
+                <button
+                    class="filter-btn border border-indigo-400 text-indigo-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-600 hover:text-white transition"
+                    data-filter="design">Design</button>
+                <button
+                    class="filter-btn border border-indigo-400 text-indigo-500 px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-600 hover:text-white transition"
+                    data-filter="business">Business</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div id="project-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- React Portfolio Project -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 overflow-hidden"
+                    data-category="react">
+                    <img src="/images/projects/portfolio-project.jpg" alt="React Portfolio Website Preview"
+                        class="w-full h-52 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+                            Personal Portfolio (React)
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
+                            Developed a fully responsive personal portfolio using <span
+                                class="font-semibold">React</span>,
+                            <span class="font-semibold">Tailwind CSS</span>, and <span
+                                class="font-semibold">Vite</span>.
+                            Implemented a <span class="font-semibold">dark mode toggle with local storage</span>,
+                            modular page structure for Projects, Blog, Resume, and Contact, and smooth animations using
+                            <span class="font-semibold">Framer Motion</span> and <span class="font-semibold">AOS</span>.
+                            Deployed successfully on <span class="font-semibold">Netlify</span> with optimized build
+                            performance.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">React</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Tailwind
+                                CSS</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Vite</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Dark
+                                Mode</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Framer
+                                Motion</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">AOS
+                                Animations</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Responsive
+                                Design</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Netlify
+                                Deployment</span>
+                        </div>
+                        <a href="index.html"
+                            class="text-indigo-600 dark:text-indigo-400 hover:underline text-sm font-medium">
+                            View Site →
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- UX/UI Design Project -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 overflow-hidden"
+                    data-category="design">
+                    <img src="/images/projects/digital-payment-system.jpg"
+                        alt="Digital Payment System - Figma UX/UI Design" class="w-full h-52 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+                            Digital Payment System – UX/UI Design
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
+                            Designed a school payment management system using Figma, following a complete UX design
+                            sprint process.
+                            Developed storyboards, low- to high-fidelity wireframes, conducted user testing, and refined
+                            layouts
+                            through multiple design iterations to ensure accessibility and usability.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Figma</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">UX
+                                Research</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Design
+                                Sprint</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">User
+                                Testing</span>
+                        </div>
+                        <a href="projects.html"
+                            class="text-indigo-600 dark:text-indigo-400 hover:underline text-sm font-medium">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Web Business Essentials -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 overflow-hidden"
+                    data-category="business">
+                    <img src="/images/projects/anaheim-peppers.jpg" alt="Anaheim Peppers Business Website"
+                        class="w-full h-52 object-cover">
+                    <div class="p-6 text-left">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+                            Web Business Essentials – Anaheim Peppers
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
+                            Designed and developed a fully responsive marketing website for <span
+                                class="font-semibold">Anaheim Peppers</span>,
+                            focusing on performance, SEO, and user analytics. Integrated <span
+                                class="font-semibold">Google Analytics</span>
+                            and <span class="font-semibold">Lighthouse</span> optimization reports to monitor engagement
+                            and page performance.
+                            Implemented cookie consent using <span class="font-semibold">iubenda</span> for GDPR
+                            compliance and deployed the
+                            site via <span class="font-semibold">WHC hosting services</span> for live accessibility.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Google
+                                Analytics</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">SEO</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Lighthouse
+                                Audit</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">Responsive
+                                Design</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">iubenda
+                                Cookie Policy</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-white px-3 py-1 rounded-full text-xs font-medium">WHC
+                                Hosting</span>
+                        </div>
+                        <a href="https://site1737057039.mywhc.ca/anaheim-peppers/" target="_blank"
+                            class="text-indigo-600 dark:text-indigo-400 hover:underline text-sm font-medium">
+                            View Site →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Script -->
+    <script>
+        const buttons = document.querySelectorAll(".filter-btn");
+        const cards = document.querySelectorAll(".project-card");
+
+        buttons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const filter = btn.getAttribute("data-filter");
+
+                // Remove active state from all buttons
+                buttons.forEach((b) => b.classList.remove("bg-indigo-600", "text-white"));
+                btn.classList.add("bg-indigo-600", "text-white");
+
+                // Filter cards
+                cards.forEach((card) => {
+                    const category = card.getAttribute("data-category");
+                    card.classList.add("opacity-0", "scale-95", "pointer-events-none");
+
+                    setTimeout(() => {
+                        if (filter === "all" || category === filter) {
+                            card.classList.remove("hidden");
+                            setTimeout(() => card.classList.remove("opacity-0", "scale-95", "pointer-events-none"), 100);
+                        } else {
+                            card.classList.add("hidden");
+                        }
+                    }, 150);
+                });
+            });
+        });
+    </script>
+
+
+    <!-- Testimonials
+    <section class="bg-gray-100 dark:bg-gray-800 py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-indigo-600 dark:text-indigo-400">What My Clients Say</h2>
+            <p class="text-gray-600 dark:text-gray-300 mb-10">
+                Real feedback from collaborators and clients who have worked with me on academic and freelance projects.
+            </p>
+
+            <div
+                class="max-w-xl mx-auto bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-left hover:shadow-lg transition">
+                <p class="text-gray-700 dark:text-gray-300 italic mb-4">
+                    “This is exactly what I was looking for! Sankalpa delivered on time, with clean code and great
+                    attention to
+                    detail.”
+                </p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h4 class="font-semibold">Dillon M.</h4>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Freelance Client</p>
+                    </div>
+                    <span class="text-yellow-400">★★★★★</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Final CTA -->
+    <section
+        class="text-center py-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
+        <h2 class="text-3xl font-bold mb-4">Let's Collaborate</h2>
+        <p class="text-lg max-w-2xl mx-auto mb-8">
+            Let's bring your vision to life. From design to deployment, I deliver high-quality, user-focused solutions
+            that
+            exceed expectations.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="contact.html"
+                class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400">
+                Get in Touch
+            </a>
+            <a href="projects.html"
+                class="border border-white/60 px-6 py-3 rounded-lg font-medium hover:bg-white/20 transition">See My
+                Work</a>
+        </div>
+    </section>
+
+    <footer
+        class="bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-300 border-t border-gray-300 dark:border-gray-800 transition-colors duration-500">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 md:px-10 grid md:grid-cols-3 gap-8 py-10">
+
+            <!-- Brand Info -->
+            <div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">SanDev</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    Front-End Developer crafting responsive and accessible digital experiences.
+                    Focused on creating design-driven, user-friendly web interfaces.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Home</a></li>
+                    <li><a href="projects.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Projects</a></li>
+                    <li><a href="about.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">About</a></li>
+                    <li><a href="resume.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Résumé</a></li>
+                    <li><a href="contact.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Connect -->
+            <div>
+                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Connect</h4>
+                <div class="flex space-x-4">
+                    <!-- GitHub -->
+                    <a href="https://github.com/sanpoudel4" target="_blank"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+              -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+              2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+              0 0 .67-.21 2.2.82.64-.18 1.32-.27
+              2-.27s1.36.09 2 .27c1.53-1.04
+              2.2-.82 2.2-.82.44 1.1.16 1.92.08
+              2.12.51.56.82 1.27.82 2.15
+              0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+              1.48 0 1.07-.01 1.93-.01
+              2.2 0 .21.15.46.55.38A8.01 8.01 0
+              0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/sankalpa-poudel-5aa38a2b7/" target="_blank"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474
+              0 16 .513 16 1.146v13.708c0 .633-.526
+              1.146-1.175 1.146H1.175C.526 16 0
+              15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837
+              0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4
+              3.226 2.4 3.934c0 .694.521 1.248
+              1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878
+              1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274
+              0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678
+              0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:poudelsankalpa@gmail.com"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2
+              2h12a2 2 0 0 1 1.95 1.555L8
+              8.414zM0 4.697v7.104l5.803-3.558zM6.761
+              8.83l-6.57 4.027A2 2 0 0 0 2
+              14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8
+              9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="mt-4 text-xs text-gray-500 dark:text-gray-400">
+                    Let's connect — open for collaboration and opportunities.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Copyright Line -->
+        <p class="bg-gray-200 dark:bg-black text-xs text-gray-600 dark:text-gray-500 py-4 text-center">
+            © <span id="year"></span> SanDev. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Scroll to top"
+        class="fixed bottom-6 right-6 z-50 hidden p-3 rounded-full bg-indigo-600 text-white shadow-lg hover:bg-indigo-700 transition">
+        <!-- Up Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+</body>
+
+</html>

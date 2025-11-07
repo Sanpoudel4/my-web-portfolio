@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résumé | SanDev</title>
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body
+    class="min-h-screen flex flex-col bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">SanDev</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="hover:text-indigo-500">Home</a></li>
+                <li><a href="projects.html" class="hover:text-indigo-500">Projects</a></li>
+                <li><a href="blog.html" class="hover:text-indigo-500">Blog</a></li>
+                <li><a href="resume.html" class="font-semibold text-indigo-600 dark:text-indigo-400">Résumé</a></li>
+                <li><a href="contact.html" class="hover:text-indigo-500">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="text-2xl dark:text-yellow-400">🌙</button>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero -->
+        <section
+            class="text-center py-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
+            <h1 class="text-5xl font-extrabold mb-3">Sankalpa Poudel</h1>
+            <p class="text-xl mb-6 font-medium">Front-End Developer & UX/UI Designer</p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <span>📧 poudelsankalpa@gmail.com</span>
+                <span>📍 Edmonton, Alberta</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-6">
+                <a href="https://github.com/sanpoudel4" target="_blank"
+                    class="px-4 py-1 bg-white/10 rounded-full hover:bg-white/20 transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/sankalpa-poudel-5aa38a2b7/" target="_blank"
+                    class="px-4 py-1 bg-white/10 rounded-full hover:bg-white/20 transition">LinkedIn</a>
+                <a href="mailto:poudelsankalpa@gmail.com"
+                    class="px-4 py-1 bg-white/10 rounded-full hover:bg-white/20 transition">Email Me</a>
+            </div>
+            <div class="mt-6">
+                <button onclick="window.print()"
+                    class="px-6 py-2 border border-white/40 rounded-lg hover:bg-white/20 transition text-sm">
+                    Print / PDF
+                </button>
+            </div>
+        </section>
+
+        <!-- Professional Summary -->
+        <section class="container mx-auto py-16 px-6">
+            <h2 class="text-3xl font-bold mb-6 text-center text-indigo-600 dark:text-indigo-400">
+                Professional Summary
+            </h2>
+            <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-center max-w-3xl mx-auto">
+                Passionate Front-End Developer & UX/UI Designer currently completing the Web Design & Development
+                program at NAIT.
+                Skilled in creating responsive, accessible, and visually engaging digital experiences using HTML, CSS,
+                JavaScript, and Tailwind CSS.
+                Experienced in blending usability, performance, and modern design systems to deliver intuitive web
+                applications.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="bg-gray-100 dark:bg-gray-800 py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold mb-10 text-center text-indigo-600 dark:text-indigo-400">
+                    Professional Experience
+                </h2>
+                <div class="space-y-12">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-1">Front-End Developer (Capstone Project)</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Cornerstone Counselling – Edmonton, AB
+                        </p>
+                        <p class="text-sm italic mb-2">Jan 2025 – Present</p>
+                        <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 text-sm space-y-1">
+                            <li>Collaborating with a team to develop a custom WordPress block theme using Tailwind CSS.
+                            </li>
+                            <li>Implemented reusable patterns and templates to streamline client content updates.</li>
+                            <li>Applied UX/UI best practices to improve accessibility, color contrast, and
+                                responsiveness.</li>
+                            <li>Integrated client feedback through Figma prototypes and iterative testing.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-1">Team Member</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">Tim Hortons – Edmonton, AB</p>
+                        <p class="text-sm italic mb-2">2022 – Present</p>
+                        <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 text-sm space-y-1">
+                            <li>Maintained fast-paced workflow ensuring high accuracy and quality service under
+                                pressure.</li>
+                            <li>Developed communication and teamwork skills valuable for collaborative development
+                                environments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="container mx-auto py-16 px-6">
+            <h2 class="text-3xl font-bold mb-10 text-center text-indigo-600 dark:text-indigo-400">
+                Education
+            </h2>
+            <div class="text-center">
+                <h3 class="text-xl font-semibold">Diploma in Digital Media & IT (Web Design & Development)</h3>
+                <p class="text-gray-700 dark:text-gray-300 mb-1">Northern Alberta Institute of Technology (NAIT)</p>
+                <p class="text-sm italic text-gray-500 dark:text-gray-400">2023 – 2025 (Expected)</p>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="bg-gray-100 dark:bg-gray-800 py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-10 text-indigo-600 dark:text-indigo-400">
+                    Technical Skills
+                </h2>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Python</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">JavaScript</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">SQL</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">PostgreSQL</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">MySQL</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Power BI</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Tableau</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Pandas</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Scikit-learn</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Spark</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Git & GitHub</div>
+                    <div class="p-4 bg-white dark:bg-gray-700 rounded-lg shadow">Agile / Scrum</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="container mx-auto py-16 px-6">
+            <h2 class="text-3xl font-bold text-center mb-10 text-indigo-600 dark:text-indigo-400">
+                Certifications & Achievements
+            </h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300 text-sm">
+                    <li>UX Design Fundamentals – Coursera (2024)</li>
+                    <li>Responsive Web Design – freeCodeCamp (2024)</li>
+                    <li>Introduction to JavaScript – Codecademy (2023)</li>
+                </ul>
+                <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300 text-sm">
+                    <li>NAIT Dean’s Honour Roll (2024)</li>
+                    <li>Cornerstone Capstone Team Lead (2025)</li>
+                    <li>3rd Place – NAIT Design Sprint Challenge (2024)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="bg-gray-100 dark:bg-gray-800 py-16 text-center">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+                <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                    Interested in collaborating or want to learn more about my work? Let’s chat!
+                </p>
+                <a href="contact.html"
+                    class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400">
+                    Send Message
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>© <span id="year"></span> SanDev | Front-End Developer</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
