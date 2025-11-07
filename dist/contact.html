@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | SanDev</title>
+  <script type="module" crossorigin src="/assets/main-DkrUg-um.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-wOoCjhU9.css">
+</head>
+
+<body
+    class="min-h-screen flex flex-col bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
+
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center p-4">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600 dark:text-indigo-400">SanDev</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="hover:text-indigo-500">Home</a></li>
+                <li><a href="projects.html" class="hover:text-indigo-500">Projects</a></li>
+                <li><a href="blog.html" class="hover:text-indigo-500">Blog</a></li>
+                <li><a href="about.html" class="hover:text-indigo-500">About</a></li>
+                <li><a href="resume.html" class="hover:text-indigo-500">Résumé</a></li>
+                <li><a href="contact.html" class="font-semibold text-indigo-600 dark:text-indigo-400">Contact</a></li>
+            </ul>
+            <button id="theme-toggle"
+                class="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-sm font-medium text-gray-800 dark:text-gray-100 shadow hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+            </button>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+
+        <!-- Hero -->
+        <section
+            class="text-center py-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
+            <h1 class="text-5xl font-extrabold mb-3">Let's Collaborate</h1>
+            <p class="text-xl max-w-3xl mx-auto">
+                Whether you have a project, idea, or opportunity — I’d love to hear from you!
+                I specialize in crafting intuitive, responsive web experiences and am always open to new collaborations.
+            </p>
+        </section>
+
+        <!-- Contact Form + Profile -->
+        <section class="container mx-auto py-16 px-6 grid md:grid-cols-2 gap-12">
+            <!-- Form -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-indigo-600 dark:text-indigo-400">Send Me a Message</h2>
+                <p class="text-gray-600 dark:text-gray-300 mb-8">
+                    Have a project, question, or collaboration idea? Fill out the form below, and I’ll get back to you
+                    shortly.
+                </p>
+
+                <form action="#" method="POST" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Full Name</label>
+                            <input type="text" placeholder="Your name"
+                                class="w-full p-3 border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700"
+                                required />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email Address</label>
+                            <input type="email" placeholder="you@example.com"
+                                class="w-full p-3 border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700"
+                                required />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Subject</label>
+                        <input type="text" placeholder="Brief description of your inquiry"
+                            class="w-full p-3 border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700" />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Message</label>
+                        <textarea rows="5" placeholder="Tell me about the project or collaboration..."
+                            class="w-full p-3 border rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Profile / Info -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-indigo-600 dark:text-indigo-400">
+                    Professional Profiles
+                </h2>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                    <!-- Profile Header -->
+                    <div class="text-center mb-6">
+                        <img src="images/profile/sankalpa.jpg" alt="Sankalpa Poudel"
+                            class="w-24 h-24 mx-auto rounded-full shadow mb-3 object-cover" />
+                        <h3 class="text-xl font-semibold">Sankalpa Poudel</h3>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">
+                            Front-End Developer | UX/UI Designer
+                        </p>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h4 class="font-semibold mb-1 flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-fill text-indigo-500" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                </svg>
+                                Email
+                            </h4>
+                            <p class="text-gray-600 dark:text-gray-300">
+                                poudelsankalpa@gmail.com
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold mb-1 flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-geo-alt-fill text-indigo-500" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                </svg>
+                                Location
+                            </h4>
+                            <p class="text-gray-600 dark:text-gray-300">
+                                Edmonton, Alberta (Available Remote)
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold mb-1 flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-link text-indigo-500" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9q-.13 0-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+                                    <path
+                                        d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4 4 0 0 1-.82 1H12a3 3 0 1 0 0-6z" />
+                                </svg>
+                                Connect
+                            </h4>
+                            <div class="flex space-x-4 text-gray-600 dark:text-gray-200">
+                                <a href="https://www.linkedin.com/in/sankalpa-poudel-5aa38a2b7/" target="_blank"
+                                    class="flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                    GitHub
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/sankalpa-poudel-5aa38a2b7/" target="_blank"
+                                    class="flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                    LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-6 border-gray-300 dark:border-gray-700" />
+
+                    <!-- Expertise -->
+                    <div>
+                        <h4 class="font-semibold mb-2 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-lightbulb-fill text-indigo-500" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5" />
+                            </svg>
+                            Key Expertise
+                        </h4>
+                        <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm space-y-1">
+                            <li>Front-End Development (HTML, CSS, JS, Tailwind)</li>
+                            <li>UX/UI Design & Prototyping (Figma, Adobe XD)</li>
+                            <li>WordPress Block Theme Development</li>
+                            <li>Responsive Design & Accessibility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FAQ -->
+        <section class="bg-gray-100 dark:bg-gray-800 py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-10 text-indigo-600 dark:text-indigo-400">
+                    Frequently Asked Questions
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-10 text-gray-700 dark:text-gray-300">
+                    <div>
+                        <h3 class="font-semibold mb-2">What is your current availability?</h3>
+                        <p>I’m currently available for freelance projects, collaborations, and front-end internships.
+                            Typically respond within 24 hours.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Do you work remotely?</h3>
+                        <p>Yes, I’m fully set up for remote collaboration and have worked with teams across Canada and
+                            internationally.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">What technologies do you focus on?</h3>
+                        <p>I primarily work with Tailwind CSS, React, and WordPress block themes — blending modern
+                            front-end tools with accessibility-first design.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Can I hire you for short-term projects?</h3>
+                        <p>Absolutely! I take on both short-term and long-term projects, focusing on quality,
+                            consistency, and responsive design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer
+        class="bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-300 border-t border-gray-300 dark:border-gray-800 transition-colors duration-500">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 md:px-10 grid md:grid-cols-3 gap-8 py-10">
+
+            <!-- Brand Info -->
+            <div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">SanDev</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    Front-End Developer crafting responsive and accessible digital experiences.
+                    Focused on creating design-driven, user-friendly web interfaces.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Home</a></li>
+                    <li><a href="projects.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Projects</a></li>
+                    <li><a href="about.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">About</a></li>
+                    <li><a href="resume.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Résumé</a></li>
+                    <li><a href="contact.html"
+                            class="hover:text-indigo-500 dark:hover:text-indigo-400 transition">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Connect -->
+            <div>
+                <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Connect</h4>
+                <div class="flex space-x-4">
+                    <!-- GitHub -->
+                    <a href="https://github.com/sanpoudel4" target="_blank"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+              -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+              2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+              0 0 .67-.21 2.2.82.64-.18 1.32-.27
+              2-.27s1.36.09 2 .27c1.53-1.04
+              2.2-.82 2.2-.82.44 1.1.16 1.92.08
+              2.12.51.56.82 1.27.82 2.15
+              0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+              1.48 0 1.07-.01 1.93-.01
+              2.2 0 .21.15.46.55.38A8.01 8.01 0
+              0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/sankalpa-poudel-5aa38a2b7/" target="_blank"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474
+              0 16 .513 16 1.146v13.708c0 .633-.526
+              1.146-1.175 1.146H1.175C.526 16 0
+              15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837
+              0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4
+              3.226 2.4 3.934c0 .694.521 1.248
+              1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878
+              1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274
+              0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678
+              0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:poudelsankalpa@gmail.com"
+                        class="text-gray-500 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-indigo-400 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2
+              2h12a2 2 0 0 1 1.95 1.555L8
+              8.414zM0 4.697v7.104l5.803-3.558zM6.761
+              8.83l-6.57 4.027A2 2 0 0 0 2
+              14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8
+              9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                    </a>
+                </div>
+                <p class="mt-4 text-xs text-gray-500 dark:text-gray-400">
+                    Let's connect — open for collaboration and opportunities.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Copyright Line -->
+        <p class="bg-gray-200 dark:bg-black text-xs text-gray-600 dark:text-gray-500 py-4 text-center">
+            © <span id="year"></span> SanDev. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Scroll to top"
+        class="fixed bottom-6 right-6 z-50 hidden p-3 rounded-full bg-indigo-600 text-white shadow-lg hover:bg-indigo-700 transition">
+        <!-- Up Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+</body>
+
+</html>
