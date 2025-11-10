@@ -73,3 +73,6 @@ window.addEventListener("scroll", () => {
 backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+// Automatically insert the current year
+document.getElementById("year").textContent = new Date().getFullYear();
