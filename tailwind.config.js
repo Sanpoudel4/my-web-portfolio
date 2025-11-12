@@ -7,6 +7,7 @@ export default {
     "./blog.html",
     "./resume.html",
     "./contact.html",
+    "./partials/**/*.html", // Include partials
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {

@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+nav a:hover:not(.font-semibold) {
+    color: #6366f1;
+    /* indigo-500 */
+}

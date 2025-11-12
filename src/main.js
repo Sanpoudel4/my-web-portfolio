@@ -55,6 +55,8 @@ function updateThemeButtons() {
     toggleMobile.innerHTML = content;
 }
 
+/* -------------------------------------------------------------------------- */
+
 // Back to Top Button
 const backToTop = document.getElementById("backToTop");
 
@@ -74,5 +76,39 @@ backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+/* -------------------------------------------------------------------------- */
+
 // Automatically insert the current year
 document.getElementById("year").textContent = new Date().getFullYear();
+
+/* -------------------------------------------------------------------------- */
+
+// Automatically highlight the active page link in both menus
+const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+// Select all navigation links (desktop + mobile)
+const navLinks = document.querySelectorAll("nav a, #mobile-menu a");
+
+navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+        link.classList.add("text-indigo-600", "dark:text-indigo-400", "font-semibold");
+    } else {
+        link.classList.remove("text-indigo-600", "dark:text-indigo-400", "font-semibold");
+    }
+});
+
+/* -------------------------------------------------------------------------- */
+
+// Mobile Menu Toggle
+const menuToggle = document.getElementById("menu-toggle");
+const menuOpen = document.getElementById("menu-open");
+const menuClose = document.getElementById("menu-close");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+    menuOpen.classList.toggle("hidden");
+    menuClose.classList.toggle("hidden");
+});
